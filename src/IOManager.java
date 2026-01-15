@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class IOManager {
 
-    public static String userWrite(String message){
+    public static String writeMessage(String message){
         
         Scanner scan = new Scanner(System.in);
         System.out.println(message);
@@ -10,7 +10,7 @@ public class IOManager {
         return scan.next();
     }
 
-    public static void userRead(String readMessage){
+    public static void printMessage(String readMessage){
 
         System.out.println(readMessage);
     }
